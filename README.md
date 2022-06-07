@@ -1,6 +1,6 @@
 # test-project
 
-> A vue routing example originally created by Jacob Goh to answer this [stackoverflow question] (https://stackoverflow.com/questions/58606395/how-to-use-slots-in-router-view). I liked the answer and forked it for further study =)
+> A vue routing example originally created by Jacob Goh to answer this [stackoverflow question](https://stackoverflow.com/questions/58606395/how-to-use-slots-in-router-view). I liked the answer and forked it for further study =)
 
 ## Build Setup
 
