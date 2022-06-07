@@ -1,0 +1,24 @@
+<template>
+  <h1>
+    {{ msg }}
+    <slot name="test-goodbye"></slot>
+  </h1>
+</template>
+
+<script>
+export default {
+  name: "goodbye",
+
+  props: ["name"],
+
+  computed: {
+    msg() {
+      return `Goodbye, ${this.name}!`;
+    }
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+</style>
